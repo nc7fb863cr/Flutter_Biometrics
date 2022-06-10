@@ -1,0 +1,23 @@
+name: flutter_biometrics
+description: A new Flutter plugin project.
+version: 0.0.1
+homepage: https://github.com/nc7fb863cr/Flutter_Biometrics
+repository: https://github.com/nc7fb863cr/Flutter_Biometrics
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.nan.flutter_biometrics
+        pluginClass: FlutterBiometricsPlugin
+      ios:
+        pluginClass: FlutterBiometricsPlugin
